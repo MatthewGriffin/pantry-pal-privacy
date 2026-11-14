@@ -1,0 +1,83 @@
+<!doctype html>
+<html lang="en-GB">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Privacy policy - Pantry Pal</title>
+  <meta name="description" content="How Pantry Pal handles your data.">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<main>
+  <h1>Privacy policy</h1>
+  <p class="muted">Pantry Pal for Android &middot; Last updated 14 November 2026</p>
+
+  <p class="note">The short version: your pantry, meals, shopping lists and receipts are stored on your phone. The AI assistant works by sending what you type, and photos you choose to scan, through our service to Anthropic's Claude. We don't ask for your name or email, we don't show ads and we don't sell data.</p>
+
+  <h2>Who we are</h2>
+  <p>Pantry Pal is made by [DEVELOPER NAME] ("we"). For anything in this policy, contact <a href="mailto:[CONTACT EMAIL]">[CONTACT EMAIL]</a>.</p>
+
+  <h2>What stays on your phone</h2>
+  <ul>
+    <li>Your inventory, meal plans, recipes, shopping lists, leftovers, prices you record, receipt scans and settings.</li>
+    <li>Receipt photos are read on your phone to find the items and prices.</li>
+    <li>Your backups, if you make them, are files you choose where to save.</li>
+  </ul>
+  <p>We can't see any of this. If you uninstall the app or clear its data, it is deleted from the phone.</p>
+
+  <h2>What is sent to the AI</h2>
+  <p>When you use the assistant, the app sends Anthropic's Claude (through our service, below) the message you typed, the recent chat, and enough of your pantry, plan and preferences to answer (for example what you have in stock and how many people you cook for). If you scan a packet or a recipe page, the photo is sent too. Claude's reply comes back to your phone.</p>
+  <ul>
+    <li>Only things you do with the AI are sent. Adding, editing and deleting things by hand never leaves your phone.</li>
+    <li>Anthropic processes this to produce the reply. Their own terms and privacy policy apply to that processing: <a href="https://www.anthropic.com/legal/privacy" rel="noopener">anthropic.com/legal/privacy</a>.</li>
+    <li>Please don't put anything sensitive in the chat that you wouldn't want processed this way.</li>
+  </ul>
+
+  <h2>Our service between the app and Claude</h2>
+  <p>The app talks to a small service we run on Cloudflare. It keeps our Claude access private and counts how much AI each install has used, so that the free and paid allowances work. It passes your messages on to Claude and passes the reply back; <strong>it does not store the content of your messages, replies or photos</strong>.</p>
+  <p>What it does store:</p>
+  <ul>
+    <li>A random account ID made for your install (not linked to your name, email or phone number).</li>
+    <li>Which plan the account is on, how much of the allowance has been used and when the current period started.</li>
+    <li>A scrambled (hashed) form of the network address used to sign up, counted per day to stop people creating huge numbers of accounts. The real address is not stored by us.</li>
+  </ul>
+  <p>Cloudflare, which hosts the service, processes requests as the network operator and may keep ordinary technical logs as described in its own policy: <a href="https://www.cloudflare.com/privacypolicy/" rel="noopener">cloudflare.com/privacypolicy</a>.</p>
+  <p>If you choose to enter your own Claude API key in Settings, the app then talks to Claude directly with your key, and our service is not involved. The key is stored encrypted on your phone.</p>
+
+  <h2>Food product lookups</h2>
+  <p>When you scan a barcode or look a product up by name, the barcode number or product name is sent to the Open Food Facts database (and its sister databases) to fetch the product details. See <a href="https://world.openfoodfacts.org/privacy" rel="noopener">openfoodfacts.org/privacy</a>.</p>
+
+  <h2>Syncing between your own devices</h2>
+  <p>If you pair a second phone to share your household's pantry and plans, the two devices talk to each other directly on your own network. That data doesn't pass through our service.</p>
+
+  <h2>Permissions</h2>
+  <ul>
+    <li><strong>Camera</strong>: to scan barcodes, packets, recipes and receipts. Photos are used only as described above.</li>
+    <li><strong>Notifications</strong>: reminders such as meals planned for today and food to use up.</li>
+    <li><strong>Network access</strong>: for the AI, product lookups and syncing between your devices.</li>
+  </ul>
+
+  <h2>Payments</h2>
+  <p>Paid plans are bought through Google Play. Google handles your payment details; we never see your card or Google account details. We only learn whether an account has an active plan.</p>
+
+  <h2>How long we keep things</h2>
+  <p>Content on your phone stays until you delete it. The service keeps the account record described above for as long as the account exists, and the sign-up counters for a short time. Messages and photos are not kept by us.</p>
+
+  <h2>Your choices and rights</h2>
+  <ul>
+    <li>You can delete everything on your phone by uninstalling the app or clearing its data.</li>
+    <li>Clearing the data also disconnects your phone from its account record. To have the record removed from our service, email us. It holds no name or email, so we may need the account ID, which we can't look up for you, but we will do what we reasonably can.</li>
+    <li>Depending on where you live, you may have rights to access, correct or delete personal data and to complain to your data protection authority (in the UK, the Information Commissioner's Office).</li>
+  </ul>
+
+  <h2>Children</h2>
+  <p>Pantry Pal is not aimed at children under 13 and we don't knowingly collect their data.</p>
+
+  <h2>Security</h2>
+  <p>The connection between the app and our service is encrypted. Your Claude key, if you add one, and your account token are stored encrypted on your phone. No system is perfectly secure, so please keep your phone locked and updated.</p>
+
+  <h2>Changes</h2>
+  <p>If we change this policy we will update the date at the top. If a change is significant we will say so in the app.</p>
+</main>
+</body>
+</html>
